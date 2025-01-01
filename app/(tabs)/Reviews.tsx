@@ -1,8 +1,7 @@
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import { Text, View } from "react-native";
-import ReviewMovies from "../(reviews)/reviewspage";
-import UpcomingMovies from "../(reviews)/upcomingmovies";
-import OttMovies from "../(reviews)/ottmovies";
+import ReviewMovies from "../(reviewspages)/reviewspage";
+import UpcomingMovies from "../(reviewspages)/upcomingmovies";
+import OttMovies from "../(reviewspages)/ottmovies";
 
 const Tab = createMaterialTopTabNavigator();
 

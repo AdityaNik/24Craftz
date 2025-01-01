@@ -1,8 +1,8 @@
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { Text, View } from "react-native";
-import PersonalDetails from "../(profile)/personalDetails";
-import Photos from "../(profile)/photos";
-import Work from "../(profile)/work";
+import PersonalDetails from "../(profilepages)/personalDetails";
+import Photos from "../(profilepages)/photos";
+import Work from "../(profilepages)/work";
 
 const Tab = createMaterialTopTabNavigator();
 

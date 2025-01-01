@@ -13,7 +13,7 @@ const Layout = () => {
       />
 
       <Tabs.Screen
-        name="reviews"
+        name="Reviews"
         options={{
           title: "Reviews",
           tabBarIcon: ({ color }) => <Entypo size={28} name="mask" color={color} />,
@@ -21,7 +21,7 @@ const Layout = () => {
       />
 
       <Tabs.Screen
-        name="notifications"
+        name="Notifications"
         options={{
           title: "Notifications",
           tabBarIcon: ({ color }) => <Ionicons size={28} name="notifications" color={color} />,
@@ -29,7 +29,7 @@ const Layout = () => {
       />
 
       <Tabs.Screen
-        name="profile"
+        name="Profile"
         options={{
           title: "Profile",
           tabBarIcon: ({ color }) => <AntDesign size={28} name="profile" color={color} />,

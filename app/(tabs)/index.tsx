@@ -1,7 +1,7 @@
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import AppliedJobs from "../(jobs)/appliedjobs";
 import JobsList from "../(jobs)/joblists";
 import PostJob from "../(jobs)/postjobs";
+import AppliedJobs from "../(jobs)/appliedjobs";
 
 const Tab = createMaterialTopTabNavigator();
 

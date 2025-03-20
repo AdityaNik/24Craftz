@@ -55,7 +55,9 @@ export const JobCard = ({ job }: JobType) => {
             <Text>{job.salary}</Text>
         </View>
         <View style={{ flexDirection: "row", justifyContent: "flex-end", marginTop: 10 }}>
-            <MyButton title='Share' />
+            <MyButton onPress={() => {
+                console.log("hello all")
+            }} title='Share' />
             <MyButton title='Save' />
         </View>
     </View>
@@ -82,6 +84,3 @@ const styles = StyleSheet.create({
         marginRight: 10,
     }
 })
-
-
-

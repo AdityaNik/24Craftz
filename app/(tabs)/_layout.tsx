@@ -7,7 +7,7 @@ const Layout = () => {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Jobs",
+          title: "Job",
           tabBarIcon: ({ color }) => <Entypo size={28} name="trophy" color={color} />,
         }}
       />
@@ -15,7 +15,7 @@ const Layout = () => {
       <Tabs.Screen
         name="Reviews"
         options={{
-          title: "Reviews",
+          title: "Review",
           tabBarIcon: ({ color }) => <Entypo size={28} name="mask" color={color} />,
         }}
       />

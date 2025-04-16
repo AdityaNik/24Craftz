@@ -2,6 +2,7 @@ import { createMaterialTopTabNavigator } from "@react-navigation/material-top-ta
 import JobsList from "../(jobs)/joblists";
 import PostJob from "../(jobs)/postjobs";
 import AppliedJobs from "../(jobs)/appliedjobs";
+import Recieved from "../(jobs)/(applied)/recieved";
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -11,6 +12,7 @@ const Jobs = () => {
             <Tab.Screen name="Jobs" component={JobsList} />
             <Tab.Screen name="Post Job" component={PostJob} />
             <Tab.Screen name="Applied" component={AppliedJobs} />
+            <Tab.Screen name="Recieved" component={Recieved} />
         </Tab.Navigator>
     )
 }

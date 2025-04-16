@@ -5,12 +5,8 @@ import Recieved from "./(applied)/recieved";
 const Tab = createMaterialTopTabNavigator()
 
 const AppliedJobs = () => {
-    return (
-        <Tab.Navigator>
-            <Tab.Screen name="Applied" component={Applied}/>
-            <Tab.Screen name="Applications Recieved" component={Recieved}/>
-        </Tab.Navigator>
-    )
+    return <Applied>
+    </Applied>
 }
 
 export default AppliedJobs;
